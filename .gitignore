@@ -107,3 +107,5 @@ gradle-app.setting
 eclipse/*
 eclipse/config/*
 !eclipse/config/soundboard
+!eclipse/config/soundboard/
+!eclipse/config/soundboard/*
