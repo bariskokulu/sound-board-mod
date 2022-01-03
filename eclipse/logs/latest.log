@@ -1,0 +1,149 @@
+[00:07:17] [main/INFO]: Setting user: Player524
+[00:07:19] [Client thread/INFO]: LWJGL Version: 2.9.1
+[00:07:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SoundBoard, FMLFileResourcePack:Example Mod
+[00:07:38] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[00:07:38] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[00:07:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SoundBoard, FMLFileResourcePack:Example Mod, SoundBoard
+[00:07:39] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:07:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:07:50] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[00:07:50] [Server thread/INFO]: Generating keypair
+[00:07:51] [Server thread/INFO]: Preparing start region for level 0
+[00:07:52] [Server thread/INFO]: Changing view distance to 12, from 10
+[00:07:53] [Server thread/INFO]: Player524[local:E:546f2ce1] logged in with entity id 180 at (-0.553121974871094, 4.0, 0.3021605853332481)
+[00:07:53] [Server thread/INFO]: Player524 joined the game
+[00:07:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SoundBoard, FMLFileResourcePack:Example Mod, SoundBoard
+[00:07:59] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:08:00] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:08:04] [Server thread/INFO]: Saving and pausing game...
+[00:08:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:08:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:08:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:08:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SoundBoard, FMLFileResourcePack:Example Mod, SoundBoard
+[00:08:11] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:08:11] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:08:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SoundBoard, FMLFileResourcePack:Example Mod, SoundBoard
+[00:08:18] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:08:19] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:08:22] [Server thread/INFO]: Saving and pausing game...
+[00:08:22] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:08:22] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:08:22] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:08:24] [Sound Library Loader/INFO]: Sound engine started
+[00:08:24] [Sound Library Loader/INFO]: Sound engine started
+[00:08:24] [Sound Library Loader/INFO]: Sound engine started
+[00:08:24] [Sound Library Loader/INFO]: Sound engine started
+[00:08:24] [Sound Library Loader/INFO]: Sound engine started
+[00:13:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SoundBoard, FMLFileResourcePack:Example Mod, SoundBoard
+[00:13:03] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:13:04] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:13:10] [Sound Library Loader/INFO]: Sound engine started
+[00:13:14] [Server thread/INFO]: [Player524: Toggled downfall]
+[00:13:14] [Client thread/INFO]: [CHAT] Toggled downfall
+[00:13:18] [Server thread/INFO]: <Player524> t
+[00:13:18] [Client thread/INFO]: [CHAT] <Player524> t
+[00:13:24] [Server thread/INFO]: [Player524: Played sound 'rapbattle' to Player524]
+[00:13:24] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:rapbattle
+[00:13:24] [Client thread/INFO]: [CHAT] Played sound 'rapbattle' to Player524
+[00:13:30] [Server thread/INFO]: [Player524: Played sound 'asd' to Player524]
+[00:13:30] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:asd
+[00:13:30] [Client thread/INFO]: [CHAT] Played sound 'asd' to Player524
+[00:14:25] [Server thread/INFO]: Saving and pausing game...
+[00:14:25] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:14:25] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:14:25] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:14:30] [Server thread/INFO]: [Player524: Set the time to 0]
+[00:14:30] [Client thread/INFO]: [CHAT] Set the time to 0
+[00:14:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SoundBoard, FMLFileResourcePack:Example Mod, SoundBoard
+[00:14:45] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:14:45] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:14:46] [Sound Library Loader/INFO]: Sound engine started
+[00:15:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SoundBoard, FMLFileResourcePack:Example Mod, SoundBoard
+[00:15:14] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:15:14] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:15:15] [Sound Library Loader/INFO]: Sound engine started
+[00:17:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SoundBoard, FMLFileResourcePack:Example Mod, SoundBoard
+[00:17:49] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:17:49] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:17:50] [Sound Library Loader/INFO]: Sound engine started
+[00:18:50] [Server thread/INFO]: [Player524: Played sound 'asd' to Player524]
+[00:18:50] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:asd
+[00:18:50] [Client thread/INFO]: [CHAT] Played sound 'asd' to Player524
+[00:18:51] [Server thread/INFO]: [Player524: Played sound 'rapbattle' to Player524]
+[00:18:51] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:rapbattle
+[00:18:51] [Client thread/INFO]: [CHAT] Played sound 'rapbattle' to Player524
+[00:18:56] [Server thread/INFO]: [Player524: Played sound 'soundboard:rapbattle' to Player524]
+[00:18:56] [Client thread/WARN]: Unable to play unknown soundEvent: soundboard:rapbattle
+[00:18:56] [Client thread/INFO]: [CHAT] Played sound 'soundboard:rapbattle' to Player524
+[00:19:01] [Server thread/INFO]: [Player524: Played sound 'soundboard:rapbattle' to Player524]
+[00:19:01] [Client thread/WARN]: Unable to play unknown soundEvent: soundboard:rapbattle
+[00:19:01] [Client thread/INFO]: [CHAT] Played sound 'soundboard:rapbattle' to Player524
+[00:19:03] [Client thread/INFO]: [CHAT] /playsound <sound> <player> [x] [y] [z] [volume] [pitch] [minimumVolume]
+[00:19:07] [Server thread/INFO]: [Player524: Played sound 'soundboard:rapbattle' to Player524]
+[00:19:07] [Client thread/WARN]: Unable to play unknown soundEvent: soundboard:rapbattle
+[00:19:07] [Client thread/INFO]: [CHAT] Played sound 'soundboard:rapbattle' to Player524
+[00:19:12] [Server thread/INFO]: [Player524: Played sound 'rapbattle' to Player524]
+[00:19:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:rapbattle
+[00:19:12] [Client thread/INFO]: [CHAT] Played sound 'rapbattle' to Player524
+[00:23:08] [Server thread/INFO]: [Player524: Toggled downfall]
+[00:23:08] [Client thread/INFO]: [CHAT] Toggled downfall
+[00:24:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SoundBoard, FMLFileResourcePack:Example Mod, SoundBoard
+[00:24:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:24:06] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:24:07] [Sound Library Loader/INFO]: Sound engine started
+[00:24:10] [Server thread/INFO]: [Player524: Played sound 'rapbattle' to Player524]
+[00:24:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:rapbattle
+[00:24:10] [Client thread/INFO]: [CHAT] Played sound 'rapbattle' to Player524
+[00:24:13] [Server thread/INFO]: [Player524: Played sound 'soundboard:rapbattle' to Player524]
+[00:24:13] [Client thread/WARN]: Unable to play unknown soundEvent: soundboard:rapbattle
+[00:24:13] [Client thread/INFO]: [CHAT] Played sound 'soundboard:rapbattle' to Player524
+[00:28:12] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
+[00:28:14] [Server thread/INFO]: [Player524: Game rule has been updated]
+[00:28:14] [Client thread/INFO]: [CHAT] Game rule has been updated
+[00:28:17] [Server thread/INFO]: [Player524: Set the time to 0]
+[00:28:17] [Client thread/INFO]: [CHAT] Set the time to 0
+[00:29:43] [Server thread/INFO]: <Player524> asd
+[00:29:43] [Client thread/INFO]: [CHAT] <Player524> asd
+[00:29:53] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SoundBoard, FMLFileResourcePack:Example Mod, SoundBoard
+[00:29:53] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:29:53] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:29:54] [Sound Library Loader/INFO]: Sound engine started
+[00:34:26] [Server thread/INFO]: [Player524: Toggled downfall]
+[00:34:27] [Client thread/INFO]: [CHAT] Toggled downfall
+[00:35:42] [Server thread/INFO]: <Player524> asdsa
+[00:35:42] [Client thread/INFO]: [CHAT] <Player524> asdsa
+[00:35:59] [Server thread/INFO]: <Player524> dasdada
+[00:36:00] [Client thread/INFO]: [CHAT] <Player524> dasdada
+[00:36:09] [Server thread/INFO]: <Player524> ada
+[00:36:09] [Client thread/INFO]: [CHAT] <Player524> ada
+[00:39:49] [Server thread/INFO]: <Player524> tatwaatawt
+[00:39:49] [Client thread/INFO]: [CHAT] <Player524> tatwaatawt
+[00:42:09] [Server thread/INFO]: <Player524> twaat
+[00:42:09] [Client thread/INFO]: [CHAT] <Player524> twaat
+[00:47:58] [Server thread/INFO]: <Player524> sadaa
+[00:47:58] [Client thread/INFO]: [CHAT] <Player524> sadaa
+[00:47:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SoundBoard, FMLFileResourcePack:Example Mod, SoundBoard
+[00:47:59] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:47:59] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:48:00] [Sound Library Loader/INFO]: Sound engine started
+[00:50:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SoundBoard, FMLFileResourcePack:Example Mod, SoundBoard
+[00:50:30] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:50:30] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:50:31] [Sound Library Loader/INFO]: Sound engine started
+[00:50:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SoundBoard, FMLFileResourcePack:Example Mod, SoundBoard
+[00:50:55] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:50:56] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:50:56] [Sound Library Loader/INFO]: Sound engine started
+[00:52:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:SoundBoard, FMLFileResourcePack:Example Mod, SoundBoard
+[00:52:03] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:52:03] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:52:04] [Sound Library Loader/INFO]: Sound engine started
+[00:52:21] [Server thread/INFO]: [Player524: Played sound 'soundboard:rapbattle' to Player524]
+[00:52:21] [Client thread/INFO]: [CHAT] Played sound 'soundboard:rapbattle' to Player524
+[01:01:08] [Client thread/INFO]: Stopping!
+[01:01:08] [Server thread/INFO]: Stopping server
+[01:01:08] [Server thread/INFO]: Saving players
+[01:01:08] [Server thread/INFO]: Saving worlds
+[01:01:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:01:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:01:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
