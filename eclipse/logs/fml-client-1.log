@@ -1,0 +1,1495 @@
+[23:56:02] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[23:56:02] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[23:56:02] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_281, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jdk1.8.0_281\jre
+[23:56:02] [main/DEBUG] [FML/]: Java classpath at launch is D:\mod\sound-board-mod\bin\main;\SoundBoard\bin\default;C:\Users\User\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\snapshot\20140925\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.0.3\f9e364ae2a66ce2a543012a4668856e84e5dab74\asm-debug-all-5.0.3.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-xml_2.11\1.0.2\7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0\scala-xml_2.11-1.0.2.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\4.5\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.3.5\807ae355ee63583becd7ea60e76aab1532bb42e\realms-1.3.5.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.3.1\a0ae4f51da409fa0c20fa0ca59e6bbc9413ae71d\vecmath-1.3.1.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.0.10.Final\9e50bd52ffe257a0e2cd8d971688d6ce7d174325\netty-all-4.0.10.Final.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.16\ef1582b11fd0943d069cdcb72e99008ac209a283\authlib-1.5.16.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\17.0\9c6ef172e8de35fd8d4d8783e4821e57cdef7445\guava-17.0.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.3.2\90a3822c38ec8c996e84c16a3477ef632cbc87a3\commons-lang3-3.3.2.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.4\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.9\9ce04e34240f674bc72680f8b843b1457383161a\commons-codec-1.9.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.1\290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e\lwjgl_util-2.9.1.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.1\f58c5aabcef0e41718a564be9f8e412fff8db847\lwjgl-2.9.1.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.0-beta9\678861ba1b2e1fccb594bb0ca03114bb05da9695\log4j-core-2.0-beta9.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.0-beta9\1dd66e68cccd907880229f9e2de1314bd13ff785\log4j-api-2.0-beta9.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch\5.16\1f55f009c61637c10c0acfb8b5ffc600f30044b4\twitch-5.16.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\7c6affe439099806a4f552da14c42f9d643d8b23\twitch-platform-5.16-natives-windows-32.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\39d0c3d363735b4785598e0e7fbf8297c706a9f9\twitch-platform-5.16-natives-windows-64.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\62503ee712766cf77f97252e5902786fd834b8c5\twitch-platform-5.16-natives-osx.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\18215140f010c05b9f86ef6f0f8871954d2ccebf\twitch-external-platform-4.5-natives-windows-32.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\c3cde57891b935d41b6680a9c5e1502eeab76d86\twitch-external-platform-4.5-natives-windows-64.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\4c517eca808522457dd95ee8fc1fbcdbb602efbe\lwjgl-platform-2.9.1-natives-windows.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\aa9aae879af8eb378e22cfc64db56ec2ca9a44d1\lwjgl-platform-2.9.1-natives-linux.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac\lwjgl-platform-2.9.1-natives-osx.jar;C:\Users\User\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\start;C:\Users\User\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\233\0\.cp\lib\javaagent-shaded.jar
+[23:56:02] [main/DEBUG] [FML/]: Java library path at launch is C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:/Users/User/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/User/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_281/bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\User\apache-maven-3.8.2\bin;C:\Windows\System32;C:\Users\User\.windows-build-tools\python27;C:\Users\User\.windows-build-tools\python27\;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\Program Files (x86)\GitHub CLI\;C:\Windows\system32;;.;C:/Users/User/.gradle/caches/minecraft/net/minecraft/minecraft_natives/1.7.10
+[23:56:02] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[23:56:02] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[23:56:02] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[23:56:02] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[23:56:02] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[23:56:02] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[23:56:02] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[23:56:02] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[23:56:02] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to D:\mod\sound-board-mod\eclipse\.
+[23:56:02] [main/DEBUG] [FML/]: Discovering coremods
+[23:56:03] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[23:56:03] [main/INFO] [GradleStart/]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[23:56:03] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[23:56:03] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:56:03] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[23:56:03] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[23:56:03] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:56:03] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:56:03] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:56:03] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[23:56:03] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[23:56:03] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[23:56:03] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[23:56:03] [main/DEBUG] [FML/]: Injection complete
+[23:56:03] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[23:56:03] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[23:56:03] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[23:56:04] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[23:56:04] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[23:56:04] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:56:04] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[23:56:04] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[23:56:04] [main/DEBUG] [FML/]: Injection complete
+[23:56:04] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[23:56:04] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[23:56:04] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[23:56:04] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[23:56:04] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[23:56:04] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[23:56:04] [main/DEBUG] [FML/]: Validating minecraft
+[23:56:05] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[23:56:05] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[23:56:05] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[23:56:05] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[23:56:05] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[23:56:13] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0,054s
+[23:56:13] [Client thread/INFO] [STDOUT/]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 03.01.2022 23:56
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1004865704 bytes (958 MB) / 1056309248 bytes (1007 MB) up to 1056309248 bytes (1007 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '3.3.0' Renderer: 'GeForce 210/PCIe/SSE2'
+[23:56:13] [Client thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[23:56:13] [Client thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[23:56:13] [Client thread/INFO] [FML/]: Replaced 183 ore recipies
+[23:56:13] [Client thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[23:56:17] [Client thread/DEBUG] [FML/]: File D:\mod\sound-board-mod\eclipse\config\injectedDependencies.json not found. No dependencies injected
+[23:56:17] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[23:56:17] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at D:\mod\sound-board-mod\bin\main, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\snapshot\20140925\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.0.3\f9e364ae2a66ce2a543012a4668856e84e5dab74\asm-debug-all-5.0.3.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-xml_2.11\1.0.2\7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0\scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\4.5\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.3.5\807ae355ee63583becd7ea60e76aab1532bb42e\realms-1.3.5.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.3.1\a0ae4f51da409fa0c20fa0ca59e6bbc9413ae71d\vecmath-1.3.1.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.0.10.Final\9e50bd52ffe257a0e2cd8d971688d6ce7d174325\netty-all-4.0.10.Final.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.16\ef1582b11fd0943d069cdcb72e99008ac209a283\authlib-1.5.16.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\17.0\9c6ef172e8de35fd8d4d8783e4821e57cdef7445\guava-17.0.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.3.2\90a3822c38ec8c996e84c16a3477ef632cbc87a3\commons-lang3-3.3.2.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.4\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.9\9ce04e34240f674bc72680f8b843b1457383161a\commons-codec-1.9.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.1\290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e\lwjgl_util-2.9.1.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.1\f58c5aabcef0e41718a564be9f8e412fff8db847\lwjgl-2.9.1.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.0-beta9\678861ba1b2e1fccb594bb0ca03114bb05da9695\log4j-core-2.0-beta9.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.0-beta9\1dd66e68cccd907880229f9e2de1314bd13ff785\log4j-api-2.0-beta9.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch\5.16\1f55f009c61637c10c0acfb8b5ffc600f30044b4\twitch-5.16.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\7c6affe439099806a4f552da14c42f9d643d8b23\twitch-platform-5.16-natives-windows-32.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\39d0c3d363735b4785598e0e7fbf8297c706a9f9\twitch-platform-5.16-natives-windows-64.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\62503ee712766cf77f97252e5902786fd834b8c5\twitch-platform-5.16-natives-osx.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\18215140f010c05b9f86ef6f0f8871954d2ccebf\twitch-external-platform-4.5-natives-windows-32.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\c3cde57891b935d41b6680a9c5e1502eeab76d86\twitch-external-platform-4.5-natives-windows-64.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\4c517eca808522457dd95ee8fc1fbcdbb602efbe\lwjgl-platform-2.9.1-natives-windows.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\aa9aae879af8eb378e22cfc64db56ec2ca9a44d1\lwjgl-platform-2.9.1-natives-linux.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac\lwjgl-platform-2.9.1-natives-osx.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at C:\Users\User\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\start, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\User\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\233\0\.cp\lib\javaagent-shaded.jar, examining for mod candidates
+[23:56:17] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[23:56:17] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[23:56:17] [Client thread/INFO] [FML/]: Searching D:\mod\sound-board-mod\eclipse\mods for mods
+[23:56:17] [Client thread/DEBUG] [FML/]: Examining directory main for potential mods
+[23:56:17] [Client thread/DEBUG] [FML/]: Found an mcmod.info file in directory main
+[23:56:17] [Client thread/TRACE] [FML/]: Recursing into package bariss26
+[23:56:17] [Client thread/TRACE] [FML/]: Recursing into package bariss26.soundboard
+[23:56:17] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (bariss26.soundboard.Main) - loading
+[23:56:17] [Client thread/TRACE] [soundboard/]: Parsed dependency info : [] [] []
+[23:56:17] [Client thread/TRACE] [FML/]: Recursing into package com
+[23:56:17] [Client thread/TRACE] [FML/]: Recursing into package com.example
+[23:56:17] [Client thread/TRACE] [FML/]: Recursing into package com.example.examplemod
+[23:56:17] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.example.examplemod.ExampleMod) - loading
+[23:56:17] [Client thread/TRACE] [examplemod/]: Parsed dependency info : [] [] []
+[23:56:17] [Client thread/DEBUG] [FML/]: Examining file forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar for potential mods
+[23:56:17] [Client thread/DEBUG] [FML/]: The mod container forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar appears to be missing an mcmod.info file
+[23:56:19] [Client thread/DEBUG] [FML/]: Examining file launchwrapper-1.12.jar for potential mods
+[23:56:19] [Client thread/DEBUG] [FML/]: The mod container launchwrapper-1.12.jar appears to be missing an mcmod.info file
+[23:56:19] [Client thread/DEBUG] [FML/]: Examining file jsr305-1.3.9.jar for potential mods
+[23:56:19] [Client thread/DEBUG] [FML/]: The mod container jsr305-1.3.9.jar appears to be missing an mcmod.info file
+[23:56:19] [Client thread/DEBUG] [FML/]: Examining file asm-debug-all-5.0.3.jar for potential mods
+[23:56:19] [Client thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
+[23:56:19] [Client thread/DEBUG] [FML/]: Examining file akka-actor_2.11-2.3.3.jar for potential mods
+[23:56:19] [Client thread/DEBUG] [FML/]: The mod container akka-actor_2.11-2.3.3.jar appears to be missing an mcmod.info file
+[23:56:19] [Client thread/DEBUG] [FML/]: Examining file config-1.2.1.jar for potential mods
+[23:56:19] [Client thread/DEBUG] [FML/]: The mod container config-1.2.1.jar appears to be missing an mcmod.info file
+[23:56:19] [Client thread/DEBUG] [FML/]: Examining file scala-actors-migration_2.11-1.1.0.jar for potential mods
+[23:56:19] [Client thread/DEBUG] [FML/]: The mod container scala-actors-migration_2.11-1.1.0.jar appears to be missing an mcmod.info file
+[23:56:19] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-plugin_2.11.1-1.0.2.jar for potential mods
+[23:56:19] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-plugin_2.11.1-1.0.2.jar appears to be missing an mcmod.info file
+[23:56:20] [Client thread/DEBUG] [FML/]: Examining file scala-compiler-2.11.1.jar for potential mods
+[23:56:20] [Client thread/DEBUG] [FML/]: The mod container scala-compiler-2.11.1.jar appears to be missing an mcmod.info file
+[23:56:22] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-library_2.11-1.0.2.jar for potential mods
+[23:56:22] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-library_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[23:56:22] [Client thread/DEBUG] [FML/]: Examining file scala-reflect-2.11.1.jar for potential mods
+[23:56:22] [Client thread/DEBUG] [FML/]: The mod container scala-reflect-2.11.1.jar appears to be missing an mcmod.info file
+[23:56:23] [Client thread/DEBUG] [FML/]: Examining file scala-actors-2.11.0.jar for potential mods
+[23:56:23] [Client thread/DEBUG] [FML/]: The mod container scala-actors-2.11.0.jar appears to be missing an mcmod.info file
+[23:56:23] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[23:56:23] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[23:56:23] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[23:56:23] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[23:56:23] [Client thread/DEBUG] [FML/]: Examining file scala-library-2.11.1.jar for potential mods
+[23:56:23] [Client thread/DEBUG] [FML/]: The mod container scala-library-2.11.1.jar appears to be missing an mcmod.info file
+[23:56:24] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[23:56:24] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[23:56:24] [Client thread/DEBUG] [FML/]: Examining file scala-swing_2.11-1.0.1.jar for potential mods
+[23:56:24] [Client thread/DEBUG] [FML/]: The mod container scala-swing_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[23:56:24] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[23:56:24] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[23:56:24] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[23:56:24] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[23:56:24] [Client thread/DEBUG] [FML/]: Examining file lzma-0.0.1.jar for potential mods
+[23:56:24] [Client thread/DEBUG] [FML/]: The mod container lzma-0.0.1.jar appears to be missing an mcmod.info file
+[23:56:24] [Client thread/DEBUG] [FML/]: Examining file realms-1.3.5.jar for potential mods
+[23:56:24] [Client thread/DEBUG] [FML/]: The mod container realms-1.3.5.jar appears to be missing an mcmod.info file
+[23:56:24] [Client thread/DEBUG] [FML/]: Examining file commons-compress-1.8.1.jar for potential mods
+[23:56:24] [Client thread/DEBUG] [FML/]: The mod container commons-compress-1.8.1.jar appears to be missing an mcmod.info file
+[23:56:24] [Client thread/DEBUG] [FML/]: Examining file httpclient-4.3.3.jar for potential mods
+[23:56:24] [Client thread/DEBUG] [FML/]: The mod container httpclient-4.3.3.jar appears to be missing an mcmod.info file
+[23:56:25] [Client thread/DEBUG] [FML/]: Examining file commons-logging-1.1.3.jar for potential mods
+[23:56:25] [Client thread/DEBUG] [FML/]: The mod container commons-logging-1.1.3.jar appears to be missing an mcmod.info file
+[23:56:25] [Client thread/DEBUG] [FML/]: Examining file httpcore-4.3.2.jar for potential mods
+[23:56:25] [Client thread/DEBUG] [FML/]: The mod container httpcore-4.3.2.jar appears to be missing an mcmod.info file
+[23:56:25] [Client thread/DEBUG] [FML/]: Examining file vecmath-1.3.1.jar for potential mods
+[23:56:25] [Client thread/DEBUG] [FML/]: The mod container vecmath-1.3.1.jar appears to be missing an mcmod.info file
+[23:56:25] [Client thread/DEBUG] [FML/]: Examining file trove4j-3.0.3.jar for potential mods
+[23:56:25] [Client thread/DEBUG] [FML/]: The mod container trove4j-3.0.3.jar appears to be missing an mcmod.info file
+[23:56:25] [Client thread/DEBUG] [FML/]: Examining file icu4j-core-mojang-51.2.jar for potential mods
+[23:56:25] [Client thread/DEBUG] [FML/]: The mod container icu4j-core-mojang-51.2.jar appears to be missing an mcmod.info file
+[23:56:25] [Client thread/DEBUG] [FML/]: Examining file codecjorbis-20101023.jar for potential mods
+[23:56:25] [Client thread/DEBUG] [FML/]: The mod container codecjorbis-20101023.jar appears to be missing an mcmod.info file
+[23:56:25] [Client thread/DEBUG] [FML/]: Examining file codecwav-20101023.jar for potential mods
+[23:56:25] [Client thread/DEBUG] [FML/]: The mod container codecwav-20101023.jar appears to be missing an mcmod.info file
+[23:56:25] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[23:56:25] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[23:56:25] [Client thread/DEBUG] [FML/]: Examining file librarylwjglopenal-20100824.jar for potential mods
+[23:56:25] [Client thread/DEBUG] [FML/]: The mod container librarylwjglopenal-20100824.jar appears to be missing an mcmod.info file
+[23:56:25] [Client thread/DEBUG] [FML/]: Examining file soundsystem-20120107.jar for potential mods
+[23:56:25] [Client thread/DEBUG] [FML/]: The mod container soundsystem-20120107.jar appears to be missing an mcmod.info file
+[23:56:25] [Client thread/DEBUG] [FML/]: Examining file netty-all-4.0.10.Final.jar for potential mods
+[23:56:25] [Client thread/DEBUG] [FML/]: The mod container netty-all-4.0.10.Final.jar appears to be missing an mcmod.info file
+[23:56:25] [Client thread/DEBUG] [FML/]: Examining file authlib-1.5.16.jar for potential mods
+[23:56:25] [Client thread/DEBUG] [FML/]: The mod container authlib-1.5.16.jar appears to be missing an mcmod.info file
+[23:56:25] [Client thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
+[23:56:25] [Client thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.3.2.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.3.2.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file commons-io-2.4.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container commons-io-2.4.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file commons-codec-1.9.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container commons-codec-1.9.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file lwjgl_util-2.9.1.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container lwjgl_util-2.9.1.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file lwjgl-2.9.1.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container lwjgl-2.9.1.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file jinput-2.0.5.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file jutils-1.0.0.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file gson-2.2.4.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container gson-2.2.4.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file log4j-core-2.0-beta9.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container log4j-core-2.0-beta9.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file log4j-api-2.0-beta9.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container log4j-api-2.0-beta9.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file twitch-5.16.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container twitch-5.16.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-linux.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-linux.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-windows.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-windows.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-osx.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-osx.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-windows-32.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-windows-32.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-windows-64.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-windows-64.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-osx.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-osx.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file twitch-external-platform-4.5-natives-windows-32.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container twitch-external-platform-4.5-natives-windows-32.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file twitch-external-platform-4.5-natives-windows-64.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container twitch-external-platform-4.5-natives-windows-64.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-windows.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-windows.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-linux.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-linux.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-osx.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-osx.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining directory start for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory start
+[23:56:26] [Client thread/TRACE] [FML/]: Recursing into package net
+[23:56:26] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge
+[23:56:26] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle
+[23:56:26] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle.tweakers
+[23:56:26] [Client thread/DEBUG] [FML/]: Examining file javaagent-shaded.jar for potential mods
+[23:56:26] [Client thread/DEBUG] [FML/]: The mod container javaagent-shaded.jar appears to be missing an mcmod.info file
+[23:56:26] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
+[23:56:26] [Client thread/TRACE] [FML/]: Received a system property request ''
+[23:56:26] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[23:56:26] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[23:56:27] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar [en_US, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW, en_US]
+[23:56:27] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar [en_US, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW, en_US]
+[23:56:27] [Client thread/DEBUG] [soundboard/]: Enabling mod soundboard
+[23:56:27] [Client thread/DEBUG] [examplemod/]: Enabling mod examplemod
+[23:56:27] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[23:56:27] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[23:56:27] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[23:56:27] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[23:56:27] [Client thread/DEBUG] [FML/]: Mod sorting data
+[23:56:27] [Client thread/DEBUG] [FML/]: 	soundboard(SoundBoard:1.0.0): main ()
+[23:56:27] [Client thread/DEBUG] [FML/]: 	examplemod(Example Mod:1.0): main ()
+[23:56:27] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[23:56:27] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0,004s
+[23:56:27] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[23:56:27] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[23:56:27] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[23:56:27] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[23:56:27] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, soundboard, examplemod] at CLIENT
+[23:56:27] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, soundboard, examplemod] at SERVER
+[23:56:27] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0,694s
+[23:56:27] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[23:56:27] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[23:56:27] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[23:56:27] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1614)
+[23:56:27] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0,013s
+[23:56:27] [Client thread/TRACE] [soundboard/soundboard]: Sending event FMLConstructionEvent to mod soundboard
+[23:56:27] [Client thread/TRACE] [FML/soundboard]: Mod soundboard is using network checker : Accepting version 1.0.0
+[23:56:27] [Client thread/TRACE] [FML/soundboard]: Testing mod soundboard to verify it accepts its own version in a remote connection
+[23:56:27] [Client thread/TRACE] [FML/soundboard]: The mod soundboard accepts its own version (1.0.0)
+[23:56:27] [Client thread/DEBUG] [FML/soundboard]: Attempting to inject @SidedProxy classes into soundboard
+[23:56:27] [Client thread/TRACE] [soundboard/soundboard]: Sent event FMLConstructionEvent to mod soundboard
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Step: Construction - SoundBoard took 0,041s
+[23:56:27] [Client thread/TRACE] [examplemod/examplemod]: Sending event FMLConstructionEvent to mod examplemod
+[23:56:27] [Client thread/TRACE] [FML/examplemod]: Mod examplemod is using network checker : Accepting version 1.0
+[23:56:27] [Client thread/TRACE] [FML/examplemod]: Testing mod examplemod to verify it accepts its own version in a remote connection
+[23:56:27] [Client thread/TRACE] [FML/examplemod]: The mod examplemod accepts its own version (1.0)
+[23:56:27] [Client thread/DEBUG] [FML/examplemod]: Attempting to inject @SidedProxy classes into examplemod
+[23:56:27] [Client thread/TRACE] [examplemod/examplemod]: Sent event FMLConstructionEvent to mod examplemod
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Example Mod took 0,004s
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Finished: Construction took 0,756s
+[23:56:27] [Client thread/DEBUG] [FML/]: Mod signature data
+[23:56:27] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[23:56:27] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[23:56:27] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[23:56:27] [Client thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	7.10.99.99)	forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar
+[23:56:27] [Client thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	10.13.4.1614)	forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar
+[23:56:27] [Client thread/DEBUG] [FML/]: 		soundboard	(SoundBoard	1.0.0)	main
+[23:56:27] [Client thread/DEBUG] [FML/]: 		examplemod	(Example Mod	1.0)	main
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0,006s
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0,008s
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0,007s
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:SoundBoard took 0,001s
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Example Mod took 0,000s
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0,031s
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0,032s
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0,054s
+[23:56:27] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[23:56:27] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[23:56:27] [Client thread/DEBUG] [SoundBoard/]: Mod SoundBoard is missing a pack.mcmeta file, substituting a dummy one
+[23:56:27] [Client thread/DEBUG] [Example Mod/]: Mod Example Mod is missing a pack.mcmeta file, substituting a dummy one
+[23:56:27] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[23:56:27] [Client thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[23:56:27] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[23:56:27] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[23:56:27] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[23:56:27] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0,001s
+[23:56:27] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[23:56:27] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0,001s
+[23:56:27] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[23:56:27] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[23:56:27] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[23:56:27] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0,037s
+[23:56:27] [Client thread/TRACE] [soundboard/soundboard]: Sending event FMLPreInitializationEvent to mod soundboard
+[23:56:28] [Client thread/TRACE] [soundboard/soundboard]: Sent event FMLPreInitializationEvent to mod soundboard
+[23:56:28] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - SoundBoard took 0,015s
+[23:56:28] [Client thread/TRACE] [examplemod/examplemod]: Sending event FMLPreInitializationEvent to mod examplemod
+[23:56:28] [Client thread/TRACE] [examplemod/examplemod]: Sent event FMLPreInitializationEvent to mod examplemod
+[23:56:28] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Example Mod took 0,001s
+[23:56:28] [Client thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0,054s
+[23:56:28] [Client thread/INFO] [FML/]: Applying holder lookups
+[23:56:28] [Client thread/INFO] [FML/]: Holder lookups applied
+[23:56:28] [Client thread/INFO] [FML/]: Injecting itemstacks
+[23:56:28] [Client thread/INFO] [FML/]: Itemstack injection complete
+[23:56:28] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0,000s
+[23:56:28] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:56:28] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[23:56:29] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 1,006s
+[23:56:29] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0,005s
+[23:56:29] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0,003s
+[23:56:29] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0,009s
+[23:56:29] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0,012s
+[23:56:29] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Render Manager took 0,197s
+[23:56:30] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0,000s
+[23:56:30] [Thread-8/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[23:56:30] [Thread-8/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:56:30] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 1,125s
+[23:56:30] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading GL properties took 0,039s
+[23:56:30] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+[23:56:30] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:815)
+[23:56:30] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:768)
+[23:56:30] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:717)
+[23:56:30] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:689)
+[23:56:30] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at net.minecraftforge.common.ForgeVersion$1.run(ForgeVersion.java:94)
+[23:56:30] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+[23:56:30] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+[23:56:30] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183)
+[23:56:30] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+[23:56:30] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:803)
+[23:56:30] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	... 4 more
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Render Global instance took 1,599s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Building Blocks Texture took 0,016s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Anisotropy and Mipmaps took 0,000s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0,002s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0,018s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Blocks Texture took 0,155s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0,000s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0,005s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Items Texture took 0,015s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Viewport took 0,006s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Finished: Rendering Setup took 3,152s
+[23:56:32] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[23:56:32] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0,000s
+[23:56:32] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[23:56:32] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0,000s
+[23:56:32] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[23:56:32] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0,000s
+[23:56:32] [Client thread/TRACE] [soundboard/soundboard]: Sending event FMLInitializationEvent to mod soundboard
+[23:56:32] [Client thread/TRACE] [soundboard/soundboard]: Sent event FMLInitializationEvent to mod soundboard
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - SoundBoard took 0,029s
+[23:56:32] [Client thread/TRACE] [examplemod/examplemod]: Sending event FMLInitializationEvent to mod examplemod
+[23:56:32] [Client thread/INFO] [STDOUT/examplemod]: [com.example.examplemod.ExampleMod:init:18]: DIRT BLOCK >> tile.dirt
+[23:56:32] [Client thread/TRACE] [examplemod/examplemod]: Sent event FMLInitializationEvent to mod examplemod
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Example Mod took 0,001s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Finished: Initialization took 0,032s
+[23:56:32] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[23:56:32] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[23:56:32] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0,005s
+[23:56:32] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[23:56:32] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[23:56:32] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0,000s
+[23:56:32] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[23:56:32] [Client thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[23:56:32] [Client thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0,001s
+[23:56:32] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod soundboard
+[23:56:32] [Client thread/TRACE] [soundboard/soundboard]: Sending event IMCEvent to mod soundboard
+[23:56:32] [Client thread/TRACE] [soundboard/soundboard]: Sent event IMCEvent to mod soundboard
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - SoundBoard took 0,002s
+[23:56:32] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod examplemod
+[23:56:32] [Client thread/TRACE] [examplemod/examplemod]: Sending event IMCEvent to mod examplemod
+[23:56:32] [Client thread/TRACE] [examplemod/examplemod]: Sent event IMCEvent to mod examplemod
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Example Mod took 0,000s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0,009s
+[23:56:32] [Client thread/INFO] [FML/]: Injecting itemstacks
+[23:56:32] [Client thread/INFO] [FML/]: Itemstack injection complete
+[23:56:32] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[23:56:32] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0,001s
+[23:56:32] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[23:56:32] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0,000s
+[23:56:32] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[23:56:32] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0,145s
+[23:56:32] [Client thread/TRACE] [soundboard/soundboard]: Sending event FMLPostInitializationEvent to mod soundboard
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.neutral.die
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.orb
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.enderdragon.hit
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.bat.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.potion.smash
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.spider.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.wither.idle
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.zombie.unfect
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.endermen.hit
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.skeleton.step
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.chicken.plop
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.silverfish.hit
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.player.die
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.creeper.say
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:note.pling
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:ambient.weather.rain
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.chicken.step
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.ghast.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.wolf.step
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.tnt.primed
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.zombie.step
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.skeleton.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.villager.hit
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.wither.spawn
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:fireworks.largeBlast_far
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:gui.button.press
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.wood
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.magmacube.big
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.cow.step
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:dig.grass
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:dig.snow
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:note.bassattack
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.skeleton.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.zombie.idle
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:note.snare
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.wolf.bark
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.pig.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:dig.glass
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:music.menu
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.fizz
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:fire.fire
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.angry
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.wolf.panting
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.bowhit
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.bat.takeoff
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.irongolem.walk
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:records.ward
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.endermen.portal
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:fire.ignite
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.endermen.stare
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:step.ladder
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:records.stal
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.irongolem.hit
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.eat
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:liquid.lavapop
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.neutral.swim.splash
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:note.bd
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.endermen.idle
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.donkey.angry
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.blaze.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.anvil_use
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.zombiepig.zpighurt
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:dig.cloth
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:records.far
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:step.snow
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.hostile.die
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:liquid.lava
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.drink
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:liquid.water
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.wood_click
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:portal.portal
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:records.mellohi
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:note.harp
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.zombie.hit
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.jump
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.hostile.hurt
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.enderdragon.growl
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.donkey.idle
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.villager.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:fireworks.blast_far
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.spider.step
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.breathe
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:portal.trigger
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.soft
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.enderdragon.wings
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:records.mall
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.zombie.wood
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.door_close
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.player.swim
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.player.swim.splash
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.zombiepig.zpigangry
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.slime.small
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:music.game.end.dragon
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:fireworks.blast
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:note.hat
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:minecart.base
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:note.bass
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.ghast.fireball
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.villager.haggle
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.neutral.hurt.fall.small
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:music.game.end.credits
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.player.hurt.fall.big
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.zombie.infect
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.blaze.breathe
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.wolf.whine
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.player.hurt.fall.small
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.silverfish.step
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.hostile.hurt.fall.big
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.irongolem.throw
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.land
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:music.game.end
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.skeleton.hit
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.magmacube.jump
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:records.11
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:music.game
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.chicken.say
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.villager.idle
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.idle
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.levelup
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.wolf.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.skeleton.say
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:records.chirp
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.hostile.swim
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:creeper.primed
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.break
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.wolf.growl
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:step.gravel
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.skeleton.idle
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.bow
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.cat.meow
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.wolf.shake
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.hit
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.cat.purreow
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.cow.say
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:step.grass
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.villager.no
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:step.wood
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.pig.say
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.endermen.scream
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.zombie.metal
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.chestclosed
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.chestopen
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.neutral.hurt.fall.big
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.creeper.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.enderdragon.end
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.zombie.woodbreak
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.neutral.hurt
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:dig.sand
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.ghast.charge
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.villager.yes
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:fireworks.twinkle
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.bat.loop
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.zombiepig.zpig
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.chicken.hurt
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.wither.shoot
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:records.blocks
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.player.hurt
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:step.stone
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.hostile.swim.splash
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.zombie.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.donkey.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.irongolem.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.door_open
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.explode
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:music.game.nether
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:records.13
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:step.cloth
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.zombie.remedy
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:ambient.weather.thunder
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.zombie.hurt
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:records.wait
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:fireworks.launch
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.wolf.howl
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.hostile.hurt.fall.small
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.cow.hurt
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.wolf.hurt
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:tile.piston.in
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.bat.idle
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:step.sand
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:fireworks.largeBlast
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.splash
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.spider.say
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:music.game.creative
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.anvil_land
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:dig.gravel
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.endermen.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:game.neutral.swim
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.donkey.hit
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.slime.attack
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.sheep.shear
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:dig.wood
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:portal.travel
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:records.strad
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.pig.step
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.silverfish.say
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.cat.purr
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.click
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.pop
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.gallop
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.successful_hit
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.ghast.affectionate_scream
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.anvil_break
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.bat.hurt
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.leather
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.skeleton.hurt
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.zombiepig.zpigdeath
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:records.cat
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.armor
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.blaze.hit
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.wither.hurt
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.ghast.moan
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.sheep.say
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.cat.hiss
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.sheep.step
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.wither.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.ghast.scream
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:minecart.inside
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:tile.piston.out
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:random.burp
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.slime.big
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.zombie.say
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.horse.zombie.death
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:fireworks.twinkle_far
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.magmacube.small
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.silverfish.kill
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:ambient.cave.cave
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:mob.cat.hitt
+[23:56:32] [Client thread/INFO] [STDOUT/soundboard]: [bariss26.soundboard.Main:postInit:84]: minecraft:dig.stone
+[23:56:32] [Client thread/TRACE] [soundboard/soundboard]: Sent event FMLPostInitializationEvent to mod soundboard
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - SoundBoard took 0,140s
+[23:56:32] [Client thread/TRACE] [examplemod/examplemod]: Sending event FMLPostInitializationEvent to mod examplemod
+[23:56:32] [Client thread/TRACE] [examplemod/examplemod]: Sent event FMLPostInitializationEvent to mod examplemod
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Example Mod took 0,000s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0,286s
+[23:56:32] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[23:56:32] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0,001s
+[23:56:32] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[23:56:32] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0,000s
+[23:56:32] [Client thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[23:56:32] [Client thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[23:56:32] [Client thread/DEBUG] [FML/Forge]:   11: RecipeEntry("Before", UNKNOWN, )
+[23:56:32] [Client thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[23:56:32] [Client thread/DEBUG] [FML/Forge]:   9: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[23:56:32] [Client thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[23:56:32] [Client thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[23:56:32] [Client thread/DEBUG] [FML/Forge]:   6: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[23:56:32] [Client thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[23:56:32] [Client thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[23:56:32] [Client thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[23:56:32] [Client thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[23:56:32] [Client thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[23:56:32] [Client thread/DEBUG] [FML/Forge]: Sorting recipies
+[23:56:32] [Client thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0,032s
+[23:56:32] [Client thread/TRACE] [soundboard/soundboard]: Sending event FMLLoadCompleteEvent to mod soundboard
+[23:56:32] [Client thread/TRACE] [soundboard/soundboard]: Sent event FMLLoadCompleteEvent to mod soundboard
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - SoundBoard took 0,000s
+[23:56:32] [Client thread/TRACE] [examplemod/examplemod]: Sending event FMLLoadCompleteEvent to mod examplemod
+[23:56:32] [Client thread/TRACE] [examplemod/examplemod]: Sent event FMLLoadCompleteEvent to mod examplemod
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Example Mod took 0,000s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0,034s
+[23:56:32] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
+[23:56:32] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[23:56:32] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[23:56:32] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 5 mods
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0,000s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0,007s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0,008s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:SoundBoard took 0,001s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Example Mod took 0,000s
+[23:56:32] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - SoundBoard took 0,000s
+[23:56:32] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.SoundsFolder:getInputStream:31]: asd
+[23:56:33] [Client thread/DEBUG] [FML/]: Bar Finished: Texture Loading took 0,248s
+[23:56:33] [Client thread/DEBUG] [FML/]: Bar Finished: Mipmap generation took 0,190s
+[23:56:33] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0,047s
+[23:56:33] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0,130s
+[23:56:33] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/blocks.png took 0,570s
+[23:56:33] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii.png took 0,005s
+[23:56:33] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/lightMap_1 took 0,000s
+[23:56:33] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii_sga.png took 0,003s
+[23:56:33] [Client thread/DEBUG] [FML/]: Bar Finished: Texture Loading took 0,058s
+[23:56:33] [Client thread/DEBUG] [FML/]: Bar Finished: Mipmap generation took 0,004s
+[23:56:33] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0,006s
+[23:56:33] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0,079s
+[23:56:33] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/items.png took 0,143s
+[23:56:33] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading Texture Manager took 0,721s
+[23:56:33] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:56:33] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[23:56:33] [Thread-8/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[23:56:34] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:56:34] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[23:56:34] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:56:34] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.SoundsFolder:getInputStream:31]: asd
+[23:56:34] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 2,106s
+[23:56:34] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 2,106s
+[23:56:34] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 2,123s
+[23:56:34] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[23:56:34] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[23:56:34] [Client thread/DEBUG] [SoundBoard/]: Mod SoundBoard is missing a pack.mcmeta file, substituting a dummy one
+[23:56:34] [Client thread/DEBUG] [Example Mod/]: Mod Example Mod is missing a pack.mcmeta file, substituting a dummy one
+[23:56:35] [Client thread/DEBUG] [FML/]: Bar Finished: Loading took 21,789s
+[23:56:41] [Thread-10/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:749]: java.lang.IllegalStateException: Only one OpenAL context may be instantiated at any one time.
+[23:56:41] [Thread-10/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at org.lwjgl.openal.AL.create(AL.java:113)
+[23:56:41] [Thread-10/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at org.lwjgl.openal.AL.create(AL.java:102)
+[23:56:41] [Thread-10/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at org.lwjgl.openal.AL.create(AL.java:201)
+[23:56:41] [Thread-10/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
+[23:56:41] [Thread-10/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
+[23:56:41] [Thread-10/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
+[23:56:41] [Thread-10/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at paulscode.sound.CommandThread.run(CommandThread.java:121)
+[23:56:46] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[23:56:46] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[23:56:46] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0,750s
+[23:56:46] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[23:56:46] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[23:56:46] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0,000s
+[23:56:46] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[23:56:46] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[23:56:46] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0,000s
+[23:56:46] [Server thread/TRACE] [soundboard/soundboard]: Sending event FMLServerAboutToStartEvent to mod soundboard
+[23:56:46] [Server thread/TRACE] [soundboard/soundboard]: Sent event FMLServerAboutToStartEvent to mod soundboard
+[23:56:46] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - SoundBoard took 0,000s
+[23:56:46] [Server thread/TRACE] [examplemod/examplemod]: Sending event FMLServerAboutToStartEvent to mod examplemod
+[23:56:46] [Server thread/TRACE] [examplemod/examplemod]: Sent event FMLServerAboutToStartEvent to mod examplemod
+[23:56:46] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Example Mod took 0,001s
+[23:56:46] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0,752s
+[23:56:46] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[23:56:46] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[23:56:46] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[23:56:46] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[23:56:46] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[23:56:46] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0,001s
+[23:56:46] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[23:56:46] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[23:56:46] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0,001s
+[23:56:46] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[23:56:46] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[23:56:46] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0,002s
+[23:56:46] [Server thread/TRACE] [soundboard/soundboard]: Sending event FMLModIdMappingEvent to mod soundboard
+[23:56:46] [Server thread/TRACE] [soundboard/soundboard]: Sent event FMLModIdMappingEvent to mod soundboard
+[23:56:46] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - SoundBoard took 0,001s
+[23:56:46] [Server thread/TRACE] [examplemod/examplemod]: Sending event FMLModIdMappingEvent to mod examplemod
+[23:56:46] [Server thread/TRACE] [examplemod/examplemod]: Sent event FMLModIdMappingEvent to mod examplemod
+[23:56:46] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Example Mod took 0,001s
+[23:56:46] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0,005s
+[23:56:46] [Server thread/INFO] [FML/]: Applying holder lookups
+[23:56:46] [Server thread/INFO] [FML/]: Holder lookups applied
+[23:56:46] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[23:56:46] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[23:56:46] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[23:56:46] [Server thread/INFO] [FML/]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@312ccd5c)
+[23:56:46] [Server thread/INFO] [FML/]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@312ccd5c)
+[23:56:46] [Server thread/INFO] [FML/]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@312ccd5c)
+[23:56:47] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[23:56:47] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[23:56:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0,000s
+[23:56:47] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[23:56:47] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[23:56:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0,000s
+[23:56:47] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[23:56:47] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[23:56:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0,003s
+[23:56:47] [Server thread/TRACE] [soundboard/soundboard]: Sending event FMLServerStartingEvent to mod soundboard
+[23:56:47] [Server thread/TRACE] [soundboard/soundboard]: Sent event FMLServerStartingEvent to mod soundboard
+[23:56:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - SoundBoard took 0,000s
+[23:56:47] [Server thread/TRACE] [examplemod/examplemod]: Sending event FMLServerStartingEvent to mod examplemod
+[23:56:47] [Server thread/TRACE] [examplemod/examplemod]: Sent event FMLServerStartingEvent to mod examplemod
+[23:56:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Example Mod took 0,000s
+[23:56:47] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0,005s
+[23:56:47] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[23:56:47] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[23:56:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0,000s
+[23:56:47] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[23:56:47] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[23:56:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0,000s
+[23:56:47] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[23:56:47] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[23:56:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0,000s
+[23:56:47] [Server thread/TRACE] [soundboard/soundboard]: Sending event FMLServerStartedEvent to mod soundboard
+[23:56:47] [Server thread/TRACE] [soundboard/soundboard]: Sent event FMLServerStartedEvent to mod soundboard
+[23:56:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - SoundBoard took 0,000s
+[23:56:47] [Server thread/TRACE] [examplemod/examplemod]: Sending event FMLServerStartedEvent to mod examplemod
+[23:56:47] [Server thread/TRACE] [examplemod/examplemod]: Sent event FMLServerStartedEvent to mod examplemod
+[23:56:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Example Mod took 0,000s
+[23:56:47] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0,001s
+[23:56:49] [Netty Client IO #0/DEBUG] [FML/]: Server FML protocol version 2, 4 byte dimension received 0
+[23:56:49] [Netty Client IO #0/TRACE] [FML/]: $ServerHello->FMLHandshakeClientState$2:HELLO
+[23:56:49] [Netty Client IO #0/INFO] [FML/]: Server protocol version 2
+[23:56:49] [Netty Client IO #0/DEBUG] [FML/]: Received override dimension 0
+[23:56:49] [Netty IO #1/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[23:56:49] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[23:56:49] [Netty IO #1/TRACE] [FML/]: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[23:56:49] [Netty IO #1/INFO] [FML/]: Client attempting to join with 5 mods : FML@7.10.99.99,Forge@10.13.4.1614,soundboard@1.0.0,mcp@9.05,examplemod@1.0
+[23:56:49] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[23:56:49] [Netty Client IO #0/TRACE] [FML/]: $ModList:5 mods->FMLHandshakeClientState$3:WAITINGSERVERDATA
+[23:56:49] [Netty Client IO #0/INFO] [FML/]: Attempting connection with missing mods [] at SERVER
+[23:56:49] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[23:56:49] [Netty Client IO #0/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeClientState$5:PENDINGCOMPLETE
+[23:56:49] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$4:COMPLETE
+[23:56:49] [Netty Client IO #0/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeClientState$6:COMPLETE
+[23:56:49] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[23:56:49] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[23:56:49] [Client thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[23:56:49] [Client thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[23:56:49] [Client thread/INFO] [FML/]: [Client thread] Client side modded connection established
+[23:56:49] [Client thread/DEBUG] [FML/]: Overriding dimension: using 0
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.neutral.die
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.orb
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.enderdragon.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.bat.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.potion.smash
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.spider.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wither.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.unfect
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.endermen.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.skeleton.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.chicken.plop
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.silverfish.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.player.die
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.creeper.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:note.pling
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:ambient.weather.rain
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.chicken.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.ghast.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.tnt.primed
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.skeleton.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.villager.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wither.spawn
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fireworks.largeBlast_far
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:gui.button.press
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.wood
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.magmacube.big
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cow.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.grass
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.snow
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:note.bassattack
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.skeleton.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.zombie.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:note.snare
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.bark
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.pig.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.glass
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:music.menu
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.fizz
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fire.fire
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.angry
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.panting
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.bowhit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.bat.takeoff
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.irongolem.walk
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.ward
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.endermen.portal
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fire.ignite
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.endermen.stare
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.ladder
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.stal
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.irongolem.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.eat
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:liquid.lavapop
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.neutral.swim.splash
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:note.bd
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.endermen.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.donkey.angry
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.blaze.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.anvil_use
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombiepig.zpighurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.cloth
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.far
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.snow
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.hostile.die
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:liquid.lava
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.drink
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:liquid.water
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.wood_click
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:portal.portal
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.mellohi
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:note.harp
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.zombie.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.jump
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.hostile.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.enderdragon.growl
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.donkey.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.villager.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fireworks.blast_far
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.spider.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.breathe
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:portal.trigger
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.soft
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.enderdragon.wings
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.mall
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.wood
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.door_close
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.player.swim
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.player.swim.splash
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombiepig.zpigangry
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.slime.small
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:music.game.end.dragon
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fireworks.blast
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:note.hat
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:minecart.base
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:note.bass
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.ghast.fireball
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.villager.haggle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.neutral.hurt.fall.small
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:music.game.end.credits
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.player.hurt.fall.big
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.infect
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.blaze.breathe
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.whine
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.player.hurt.fall.small
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.silverfish.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.hostile.hurt.fall.big
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.irongolem.throw
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.land
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:music.game.end
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.skeleton.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.magmacube.jump
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.11
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:music.game
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.chicken.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.villager.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.levelup
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.skeleton.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.chirp
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.hostile.swim
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:creeper.primed
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.break
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.growl
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.gravel
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.skeleton.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.bow
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cat.meow
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.shake
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cat.purreow
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cow.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.grass
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.villager.no
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.wood
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.pig.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.endermen.scream
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.metal
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.chestclosed
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.chestopen
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.neutral.hurt.fall.big
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.creeper.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.enderdragon.end
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.woodbreak
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.neutral.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.sand
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.ghast.charge
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.villager.yes
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fireworks.twinkle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.bat.loop
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombiepig.zpig
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.chicken.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wither.shoot
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.blocks
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.player.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.stone
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.hostile.swim.splash
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.donkey.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.irongolem.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.door_open
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.explode
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:music.game.nether
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.13
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.cloth
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.remedy
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:ambient.weather.thunder
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.wait
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fireworks.launch
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.howl
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.hostile.hurt.fall.small
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cow.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:tile.piston.in
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.bat.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.sand
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fireworks.largeBlast
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.splash
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.spider.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:music.game.creative
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.anvil_land
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.gravel
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.endermen.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.neutral.swim
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.donkey.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.slime.attack
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.sheep.shear
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.wood
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:portal.travel
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.strad
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.pig.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.silverfish.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cat.purr
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.click
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.pop
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.gallop
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.successful_hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.ghast.affectionate_scream
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.anvil_break
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.bat.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.leather
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.skeleton.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombiepig.zpigdeath
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.cat
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.armor
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.blaze.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wither.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.ghast.moan
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.sheep.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cat.hiss
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.sheep.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wither.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.ghast.scream
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:minecart.inside
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:tile.piston.out
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.burp
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.slime.big
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.zombie.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fireworks.twinkle_far
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.magmacube.small
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.silverfish.kill
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:ambient.cave.cave
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cat.hitt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.stone
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.neutral.die
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.orb
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.enderdragon.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.bat.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.potion.smash
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.spider.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wither.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.unfect
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.endermen.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.skeleton.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.chicken.plop
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.silverfish.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.player.die
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.creeper.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:note.pling
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:ambient.weather.rain
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.chicken.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.ghast.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.tnt.primed
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.skeleton.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.villager.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wither.spawn
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fireworks.largeBlast_far
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:gui.button.press
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.wood
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.magmacube.big
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cow.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.grass
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.snow
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:note.bassattack
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.skeleton.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.zombie.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:note.snare
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.bark
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.pig.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.glass
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:music.menu
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.fizz
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fire.fire
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.angry
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.panting
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.bowhit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.bat.takeoff
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.irongolem.walk
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.ward
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.endermen.portal
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fire.ignite
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.endermen.stare
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.ladder
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.stal
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.irongolem.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.eat
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:liquid.lavapop
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.neutral.swim.splash
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:note.bd
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.endermen.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.donkey.angry
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.blaze.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.anvil_use
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombiepig.zpighurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.cloth
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.far
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.snow
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.hostile.die
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:liquid.lava
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.drink
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:liquid.water
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.wood_click
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:portal.portal
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.mellohi
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:note.harp
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.zombie.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.jump
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.hostile.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.enderdragon.growl
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.donkey.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.villager.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fireworks.blast_far
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.spider.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.breathe
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:portal.trigger
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.soft
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.enderdragon.wings
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.mall
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.wood
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.door_close
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.player.swim
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.player.swim.splash
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombiepig.zpigangry
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.slime.small
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:music.game.end.dragon
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fireworks.blast
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:note.hat
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:minecart.base
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:note.bass
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.ghast.fireball
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.villager.haggle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.neutral.hurt.fall.small
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:music.game.end.credits
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.player.hurt.fall.big
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.infect
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.blaze.breathe
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.whine
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.player.hurt.fall.small
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.silverfish.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.hostile.hurt.fall.big
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.irongolem.throw
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.land
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:music.game.end
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.skeleton.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.magmacube.jump
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.11
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:music.game
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.chicken.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.villager.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.levelup
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.skeleton.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.chirp
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.hostile.swim
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:creeper.primed
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.break
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.growl
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.gravel
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.skeleton.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.bow
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cat.meow
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.shake
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cat.purreow
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cow.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.grass
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.villager.no
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.wood
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.pig.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.endermen.scream
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.metal
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.chestclosed
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.chestopen
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.neutral.hurt.fall.big
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.creeper.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.enderdragon.end
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.woodbreak
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.neutral.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.sand
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.ghast.charge
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.villager.yes
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fireworks.twinkle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.bat.loop
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombiepig.zpig
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.chicken.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wither.shoot
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.blocks
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.player.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.stone
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.hostile.swim.splash
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.donkey.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.irongolem.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.door_open
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.explode
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:music.game.nether
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.13
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.cloth
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.remedy
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:ambient.weather.thunder
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.wait
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fireworks.launch
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.howl
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.hostile.hurt.fall.small
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cow.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wolf.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:tile.piston.in
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.bat.idle
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:step.sand
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fireworks.largeBlast
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.splash
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.spider.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:music.game.creative
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.anvil_land
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.gravel
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.endermen.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:game.neutral.swim
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.donkey.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.slime.attack
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.sheep.shear
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.wood
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:portal.travel
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.strad
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.pig.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.silverfish.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cat.purr
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.click
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.pop
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.gallop
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.successful_hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.ghast.affectionate_scream
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.anvil_break
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.bat.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.leather
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.skeleton.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombiepig.zpigdeath
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:records.cat
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.armor
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.blaze.hit
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wither.hurt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.ghast.moan
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.sheep.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cat.hiss
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.sheep.step
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.wither.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.ghast.scream
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:minecart.inside
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:tile.piston.out
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:random.burp
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.slime.big
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.zombie.say
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.horse.zombie.death
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:fireworks.twinkle_far
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.magmacube.small
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.silverfish.kill
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:ambient.cave.cave
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:mob.cat.hitt
+[23:56:53] [Client thread/INFO] [STDOUT/]: [bariss26.soundboard.KeyHandler:asd:32]: minecraft:dig.stone
+[23:57:16] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     ERROR MESSAGE:
+[23:57:16] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:         SoundSystem did not load after 30 seconds.
+[23:57:16] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:57:16] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[23:57:17] [Thread-14/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Switching to No Sound
+[23:57:17] [Thread-14/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (Silent Mode)
+[23:57:17] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:57:17] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[23:57:17] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[23:57:17] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0,008s
+[23:57:17] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[23:57:17] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[23:57:17] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0,001s
+[23:57:17] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[23:57:17] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[23:57:17] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0,000s
+[23:57:17] [Server thread/TRACE] [soundboard/soundboard]: Sending event FMLServerStoppingEvent to mod soundboard
+[23:57:17] [Server thread/TRACE] [soundboard/soundboard]: Sent event FMLServerStoppingEvent to mod soundboard
+[23:57:17] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - SoundBoard took 0,000s
+[23:57:17] [Server thread/TRACE] [examplemod/examplemod]: Sending event FMLServerStoppingEvent to mod examplemod
+[23:57:17] [Server thread/TRACE] [examplemod/examplemod]: Sent event FMLServerStoppingEvent to mod examplemod
+[23:57:17] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Example Mod took 0,001s
+[23:57:17] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0,010s
+[23:57:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[23:57:18] [Server thread/INFO] [FML/]: Unloading dimension 0
+[23:57:18] [Server thread/INFO] [FML/]: Unloading dimension -1
+[23:57:18] [Server thread/INFO] [FML/]: Unloading dimension 1
+[23:57:18] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[23:57:18] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[23:57:18] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[23:57:18] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0,000s
+[23:57:18] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[23:57:18] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[23:57:18] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0,000s
+[23:57:18] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[23:57:18] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[23:57:18] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0,001s
+[23:57:18] [Server thread/TRACE] [soundboard/soundboard]: Sending event FMLModIdMappingEvent to mod soundboard
+[23:57:18] [Server thread/TRACE] [soundboard/soundboard]: Sent event FMLModIdMappingEvent to mod soundboard
+[23:57:18] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - SoundBoard took 0,000s
+[23:57:18] [Server thread/TRACE] [examplemod/examplemod]: Sending event FMLModIdMappingEvent to mod examplemod
+[23:57:18] [Server thread/TRACE] [examplemod/examplemod]: Sent event FMLModIdMappingEvent to mod examplemod
+[23:57:18] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Example Mod took 0,000s
+[23:57:18] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0,002s
+[23:57:18] [Server thread/INFO] [FML/]: Applying holder lookups
+[23:57:18] [Server thread/INFO] [FML/]: Holder lookups applied
+[23:57:18] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[23:57:18] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[23:57:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0,000s
+[23:57:18] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[23:57:18] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[23:57:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0,000s
+[23:57:18] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[23:57:18] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[23:57:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0,000s
+[23:57:18] [Server thread/TRACE] [soundboard/soundboard]: Sending event FMLServerStoppedEvent to mod soundboard
+[23:57:18] [Server thread/TRACE] [soundboard/soundboard]: Sent event FMLServerStoppedEvent to mod soundboard
+[23:57:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - SoundBoard took 0,000s
+[23:57:18] [Server thread/TRACE] [examplemod/examplemod]: Sending event FMLServerStoppedEvent to mod examplemod
+[23:57:18] [Server thread/TRACE] [examplemod/examplemod]: Sent event FMLServerStoppedEvent to mod examplemod
+[23:57:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Example Mod took 0,000s
+[23:57:18] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0,001s
+[23:57:18] [Client thread/INFO] [STDOUT/]: [net.minecraft.client.Minecraft:displayCrashReport:389]: ---- Minecraft Crash Report ----
+// Oh - I know what I did wrong!
+
+Time: 03.01.2022 23:57
+Description: Unexpected error
+
+java.lang.UnsatisfiedLinkError: org.lwjgl.openal.AL10.nalGetSourcei(II)I
+	at org.lwjgl.openal.AL10.nalGetSourcei(Native Method)
+	at org.lwjgl.openal.AL10.alGetSourcei(AL10.java:853)
+	at paulscode.sound.libraries.ChannelLWJGLOpenAL.playing(ChannelLWJGLOpenAL.java:651)
+	at paulscode.sound.Source.playing(Source.java:1213)
+	at net.minecraft.client.audio.SoundManager$SoundSystemStarterThread.playing(SoundManager.java:549)
+	at net.minecraft.client.audio.SoundManager.updateAllSounds(SoundManager.java:246)
+	at net.minecraft.client.audio.SoundHandler.update(SoundHandler.java:224)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:2116)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1040)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:963)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at org.lwjgl.openal.AL10.nalGetSourcei(Native Method)
+	at org.lwjgl.openal.AL10.alGetSourcei(AL10.java:853)
+	at paulscode.sound.libraries.ChannelLWJGLOpenAL.playing(ChannelLWJGLOpenAL.java:651)
+	at paulscode.sound.Source.playing(Source.java:1213)
+	at net.minecraft.client.audio.SoundManager$SoundSystemStarterThread.playing(SoundManager.java:549)
+	at net.minecraft.client.audio.SoundManager.updateAllSounds(SoundManager.java:246)
+	at net.minecraft.client.audio.SoundHandler.update(SoundHandler.java:224)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['Player699'/181, l='MpServer', x=-0,55, y=5,62, z=0,30]]
+	Chunk stats: MultiplayerChunkCache: 600, 600
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-142,4,477), Chunk: (at 2,0,13 in -9,29; contains blocks -144,0,464 to -129,255,479), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 10070 game time, 10070 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 46 total; [EntitySlime['Slime'/193, l='MpServer', x=-63,19, y=4,00, z=9,11], EntitySlime['Slime'/194, l='MpServer', x=-57,41, y=4,73, z=19,07], EntitySlime['Slime'/195, l='MpServer', x=3,65, y=4,00, z=-26,94], EntitySlime['Slime'/196, l='MpServer', x=-19,35, y=4,78, z=-50,30], EntitySlime['Slime'/260, l='MpServer', x=-74,87, y=4,67, z=-52,42], EntitySlime['Slime'/197, l='MpServer', x=30,09, y=4,00, z=49,84], EntitySlime['Slime'/198, l='MpServer', x=22,47, y=4,59, z=71,53], EntitySlime['Slime'/199, l='MpServer', x=-49,69, y=4,00, z=21,97], EntitySlime['Slime'/200, l='MpServer', x=19,00, y=4,00, z=-47,47], EntitySlime['Slime'/201, l='MpServer', x=20,59, y=3,75, z=-63,92], EntitySlime['Slime'/50121, l='MpServer', x=-43,62, y=4,40, z=-27,61], EntitySlime['Slime'/145355, l='MpServer', x=-3,50, y=4,00, z=29,25], EntitySlime['Slime'/202, l='MpServer', x=-50,82, y=3,81, z=40,94], EntitySlime['Slime'/203, l='MpServer', x=-37,91, y=4,86, z=-73,01], EntitySlime['Slime'/204, l='MpServer', x=-49,72, y=4,00, z=-65,10], EntitySlime['Slime'/205, l='MpServer', x=-23,34, y=4,67, z=-27,03], EntitySlime['Slime'/131663, l='MpServer', x=-10,22, y=4,40, z=34,79], EntitySlime['Slime'/206, l='MpServer', x=0,36, y=4,00, z=-74,97], EntitySlime['Slime'/207, l='MpServer', x=-75,28, y=3,32, z=27,73], EntitySlime['Slime'/208, l='MpServer', x=-70,55, y=4,24, z=-16,16], EntitySlime['Slime'/209, l='MpServer', x=43,23, y=4,05, z=-78,87], EntitySlime['Slime'/48273, l='MpServer', x=64,27, y=4,93, z=-78,04], EntitySlime['Slime'/51987, l='MpServer', x=-34,66, y=4,00, z=-29,13], EntitySlime['Slime'/212, l='MpServer', x=-80,60, y=4,98, z=47,31], EntitySlime['Slime'/213, l='MpServer', x=56,72, y=4,00, z=-69,41], EntitySlime['Slime'/214, l='MpServer', x=-56,53, y=4,00, z=-12,69], EntitySlime['Slime'/215, l='MpServer', x=-5,01, y=4,14, z=-56,20], EntitySlime['Slime'/219, l='MpServer', x=70,35, y=4,50, z=26,17], EntitySlime['Slime'/227, l='MpServer', x=-64,47, y=4,67, z=-81,14], EntitySlime['Slime'/114018, l='MpServer', x=-12,32, y=4,00, z=30,59], EntitySlime['Slime'/129001, l='MpServer', x=-39,60, y=4,00, z=55,09], EntitySlime['Slime'/41835, l='MpServer', x=-45,67, y=4,33, z=35,72], EntitySlime['Slime'/93420, l='MpServer', x=-42,61, y=4,00, z=-67,20], EntityClientPlayerMP['Player699'/181, l='MpServer', x=-0,55, y=5,62, z=0,30], EntitySlime['Slime'/31536, l='MpServer', x=-37,53, y=4,00, z=-48,69], EntitySlime['Slime'/182, l='MpServer', x=15,07, y=5,11, z=-7,45], EntitySlime['Slime'/183, l='MpServer', x=4,90, y=4,00, z=43,11], EntitySlime['Slime'/184, l='MpServer', x=7,68, y=4,04, z=18,20], EntitySlime['Slime'/185, l='MpServer', x=46,98, y=4,67, z=7,34], EntitySlime['Slime'/186, l='MpServer', x=15,11, y=4,00, z=55,25], EntitySlime['Slime'/187, l='MpServer', x=13,35, y=4,47, z=-4,95], EntitySlime['Slime'/188, l='MpServer', x=-25,69, y=4,66, z=-18,84], EntitySlime['Slime'/189, l='MpServer', x=-22,65, y=4,08, z=-35,51], EntitySlime['Slime'/190, l='MpServer', x=72,16, y=4,00, z=3,56], EntitySlime['Slime'/191, l='MpServer', x=18,44, y=4,00, z=68,94], EntitySlime['Slime'/24447, l='MpServer', x=-25,69, y=4,00, z=43,20]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:415)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2581)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:992)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 935598496 bytes (892 MB) / 1056309248 bytes (1007 MB) up to 1056309248 bytes (1007 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1614} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	soundboard{1.0.0} [SoundBoard] (main) 
+	UCHIJAAAA	examplemod{1.0} [Example Mod] (main) 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '3.3.0' Renderer: 'GeForce 210/PCIe/SSE2'
+	Launched Version: 1.7.10
+	LWJGL: 2.9.1
+	OpenGL: GeForce 210/PCIe/SSE2 GL version 3.3.0, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)
+[23:57:18] [Client thread/INFO] [STDOUT/]: [net.minecraft.client.Minecraft:displayCrashReport:399]: #@!@# Game crashed! Crash report saved to: #@!@# D:\mod\sound-board-mod\eclipse\.\crash-reports\crash-2022-01-03_23.57.18-client.txt

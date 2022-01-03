@@ -1,0 +1,159 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=7068, tid=0x0000000000000e3c
+#
+# JRE version:  (8.0_281-b09) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.281-b09 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000003fd000):  JavaThread "Unknown thread" [_thread_in_vm, id=3644, stack(0x0000000002310000,0x0000000002410000)]
+
+Stack: [0x0000000002310000,0x0000000002410000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x32e5b9]
+V  [jvm.dll+0x275012]
+V  [jvm.dll+0x275cbd]
+V  [jvm.dll+0x26c6f5]
+V  [jvm.dll+0x509d]
+V  [jvm.dll+0x37a27b]
+V  [jvm.dll+0xe4fa9]
+V  [jvm.dll+0xfacae]
+V  [jvm.dll+0xfc0d4]
+V  [jvm.dll+0x2099b7]
+V  [jvm.dll+0x2383d7]
+V  [jvm.dll+0x162566]
+C  [javaw.exe+0x2322]
+C  [javaw.exe+0x16544]
+C  [kernel32.dll+0x1570d]
+C  [ntdll.dll+0x5385d]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000003fd000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=3644, stack(0x0000000002310000,0x0000000002410000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+heap address: 0x00000000c0000000, size: 1024 MB, Compressed Oops mode: Non-zero based:0x00000000bffff000
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x000000013f410000 - 0x000000013f457000 	C:\Program Files\Java\jdk1.8.0_281\bin\javaw.exe
+0x0000000077580000 - 0x000000007771f000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000077460000 - 0x000000007757f000 	C:\Windows\system32\kernel32.dll
+0x000007fefd5a0000 - 0x000007fefd60a000 	C:\Windows\system32\KERNELBASE.dll
+0x000007feff710000 - 0x000007feff7eb000 	C:\Windows\system32\ADVAPI32.dll
+0x000007feff1d0000 - 0x000007feff26f000 	C:\Windows\system32\msvcrt.dll
+0x000007fefde60000 - 0x000007fefde7f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007feff320000 - 0x000007feff44c000 	C:\Windows\system32\RPCRT4.dll
+0x0000000077360000 - 0x000000007745a000 	C:\Windows\system32\USER32.dll
+0x000007fefd610000 - 0x000007fefd677000 	C:\Windows\system32\GDI32.dll
+0x000007fefdd40000 - 0x000007fefdd4e000 	C:\Windows\system32\LPK.dll
+0x000007fefe040000 - 0x000007fefe10b000 	C:\Windows\system32\USP10.dll
+0x000007fefb770000 - 0x000007fefb964000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_fa3b1e3d17594757\COMCTL32.dll
+0x000007feff7f0000 - 0x000007feff861000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefe010000 - 0x000007fefe03e000 	C:\Windows\system32\IMM32.DLL
+0x000007fefdd50000 - 0x000007fefde59000 	C:\Windows\system32\MSCTF.dll
+0x000007fef6ec0000 - 0x000007fef6ec3000 	C:\Windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+0x000007fef2eb0000 - 0x000007fef2ec5000 	C:\Program Files\Java\jdk1.8.0_281\jre\bin\vcruntime140.dll
+0x000007fef8020000 - 0x000007fef8024000 	C:\Windows\system32\api-ms-win-crt-runtime-l1-1-0.dll
+0x000007fef2fc0000 - 0x000007fef30b4000 	C:\Windows\system32\ucrtbase.DLL
+0x000007fefbc20000 - 0x000007fefbc23000 	C:\Windows\system32\api-ms-win-core-timezone-l1-1-0.dll
+0x000007fef8010000 - 0x000007fef8013000 	C:\Windows\system32\api-ms-win-core-file-l2-1-0.dll
+0x000007fef7e80000 - 0x000007fef7e83000 	C:\Windows\system32\api-ms-win-core-localization-l1-2-0.dll
+0x000007fef7fc0000 - 0x000007fef7fc3000 	C:\Windows\system32\api-ms-win-core-processthreads-l1-1-1.dll
+0x000007fef7e70000 - 0x000007fef7e73000 	C:\Windows\system32\api-ms-win-core-file-l1-2-0.dll
+0x000007fef7d50000 - 0x000007fef7d53000 	C:\Windows\system32\api-ms-win-crt-heap-l1-1-0.dll
+0x000007fef6f70000 - 0x000007fef6f74000 	C:\Windows\system32\api-ms-win-crt-string-l1-1-0.dll
+0x000007fef6f60000 - 0x000007fef6f64000 	C:\Windows\system32\api-ms-win-crt-stdio-l1-1-0.dll
+0x000007fef6f50000 - 0x000007fef6f54000 	C:\Windows\system32\api-ms-win-crt-convert-l1-1-0.dll
+0x000007fef0630000 - 0x000007fef06cb000 	C:\Program Files\Java\jdk1.8.0_281\jre\bin\msvcp140.dll
+0x000007fef6060000 - 0x000007fef6063000 	C:\Windows\system32\api-ms-win-crt-locale-l1-1-0.dll
+0x000007fef6360000 - 0x000007fef6365000 	C:\Windows\system32\api-ms-win-crt-math-l1-1-0.dll
+0x000007fef6330000 - 0x000007fef6333000 	C:\Windows\system32\api-ms-win-crt-filesystem-l1-1-0.dll
+0x000007fef6200000 - 0x000007fef6203000 	C:\Windows\system32\api-ms-win-crt-time-l1-1-0.dll
+0x000007fef6340000 - 0x000007fef6343000 	C:\Windows\system32\api-ms-win-crt-environment-l1-1-0.dll
+0x000007fef6350000 - 0x000007fef6353000 	C:\Windows\system32\api-ms-win-crt-utility-l1-1-0.dll
+0x0000000070100000 - 0x000000007095f000 	C:\Program Files\Java\jdk1.8.0_281\jre\bin\server\jvm.dll
+0x000007fef0840000 - 0x000007fef0849000 	C:\Windows\system32\WSOCK32.dll
+0x000007fefdb10000 - 0x000007fefdb5d000 	C:\Windows\system32\WS2_32.dll
+0x000007feff270000 - 0x000007feff278000 	C:\Windows\system32\NSI.dll
+0x000007fef9dd0000 - 0x000007fef9e0b000 	C:\Windows\system32\WINMM.dll
+0x000007fefc310000 - 0x000007fefc31c000 	C:\Windows\system32\VERSION.dll
+0x0000000077720000 - 0x0000000077727000 	C:\Windows\system32\PSAPI.DLL
+0x000007fef7ff0000 - 0x000007fef8000000 	C:\Program Files\Java\jdk1.8.0_281\jre\bin\verify.dll
+0x000007fef0900000 - 0x000007fef092b000 	C:\Program Files\Java\jdk1.8.0_281\jre\bin\java.dll
+0x000007fef05f0000 - 0x000007fef0626000 	C:\Program Files\Java\jdk1.8.0_281\jre\bin\jdwp.dll
+0x000007fef5c20000 - 0x000007fef5c29000 	C:\Program Files\Java\jdk1.8.0_281\jre\bin\npt.dll
+0x000007fef0ef0000 - 0x000007fef0f20000 	C:\Program Files\Java\jdk1.8.0_281\jre\bin\instrument.dll
+0x000007fef05d0000 - 0x000007fef05e8000 	C:\Program Files\Java\jdk1.8.0_281\jre\bin\zip.dll
+0x000007fef6f80000 - 0x000007fef70a5000 	C:\Windows\system32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:63442 -Xincgc -Xmx1024M -Xms1024M -javaagent:C:\Users\User\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\233\0\.cp\lib\javaagent-shaded.jar -Dfile.encoding=Cp1254 
+java_command: GradleStart
+java_class_path (initial): D:\mod\sound-board-mod\bin\main;\SoundBoard\bin\default;C:\Users\User\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\snapshot\20140925\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.0.3\f9e364ae2a66ce2a543012a4668856e84e5dab74\asm-debug-all-5.0.3.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar;C:\Users\User\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar;C:\Users\User\.grad
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_281
+PATH=C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:/Users/User/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/User/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_281/bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\User\apache-maven-3.8.2\bin;C:\Windows\System32;C:\Users\User\.windows-build-tools\python27;C:\Users\User\.windows-build-tools\python27\;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\Program Files (x86)\GitHub CLI\;C:\Windows\system32;
+USERNAME=User
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 (6.1.7601.24384)
+
+CPU:total 2 (initial active 2) (2 cores per cpu, 1 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, clmul, tsc, tscinvbit
+
+Memory: 4k page, physical 4175804k(924052k free), swap 10956788k(1323568k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.281-b09) for windows-amd64 JRE (1.8.0_281-b09), built on Dec  9 2020 13:54:07 by "" with MS VC++ 15.9 (VS2017)
+
+time: Mon Jan  3 23:40:54 2022
+timezone: Türkiye Standart Saati
+elapsed time: 0.286301 seconds (0d 0h 0m 0s)
+
