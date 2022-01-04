@@ -6,6 +6,7 @@ import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;
 import cpw.mods.fml.common.network.simpleimpl.MessageContext;
 import cpw.mods.fml.relauncher.Side;
 import io.netty.buffer.ByteBuf;
+import net.minecraft.entity.player.EntityPlayer;
 
 public class SoundPacket implements IMessage {
 
@@ -40,7 +41,12 @@ public class SoundPacket implements IMessage {
 			if(ctx.side==Side.CLIENT) {
 				
 			} else {
-				
+				for(SoundToPlay stp : Main.sounds) {
+					if(message.name.equals(stp.name)) {
+						EntityPlayer p = ctx.getServerHandler().playerEntity;
+						p.worldObj.playSoundAtEntity(p, "soundboard:"+stp.name, stp.volume, stp.pitch);
+					}
+				}
 			}
 			return null;
 		}

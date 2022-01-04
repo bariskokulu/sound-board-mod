@@ -8,16 +8,15 @@ import java.lang.reflect.Type;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.Map.Entry;
+import java.util.Set;
 
-import org.apache.logging.log4j.LogManager;
 import org.lwjgl.input.Keyboard;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import bariss26.soundboard.Main.SoundToPlay;
+import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.InputEvent.KeyInputEvent;
 import net.minecraft.client.Minecraft;
@@ -27,9 +26,16 @@ import net.minecraft.client.audio.SoundListSerializer;
 import net.minecraft.client.audio.SoundRegistry;
 import net.minecraft.client.resources.IResource;
 import net.minecraft.client.resources.IResourceManager;
+import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.util.ResourceLocation;
 
 public class KeyHandler {
+	
+	static KeyBinding keyKeybinds = new KeyBinding("asddsa", Keyboard.KEY_K, "dsaasd");
+	
+	public static void registerKeys() {
+		ClientRegistry.registerKeyBinding(keyKeybinds);
+	}
 
 	@SubscribeEvent
 	public void asd(KeyInputEvent event) {
@@ -38,6 +44,10 @@ public class KeyHandler {
 				NetworkHandler.channel.sendToServer(new SoundPacket(Minecraft.getMinecraft().thePlayer.getEntityId(), stp.name));
 			}
 		}
+		if(keyKeybinds.isPressed()) {
+			Minecraft.getMinecraft().displayGuiScreen(new GuiSoundBoardKeybinds());
+		}
+		
 
 		if(Keyboard.isKeyDown(Keyboard.KEY_NUMPAD1)) {
 
