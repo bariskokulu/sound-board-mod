@@ -31,3 +31,4 @@
      - The volume will affect every player. If you set it too high the sound will be heard from very long distances.
      - The pitch will affect every player too.
      - Sounds should be seperated with a `,` in between. Look at the example.
+3. Enjoy.
