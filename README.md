@@ -1,6 +1,11 @@
 # sound-board-mod
  
-**On Client:**
+ Sound names on client and server **HAVE TO BE THE SAME**.
+ Take a look at the example if something below doesn't make sense.
+ If something wrong is written below, then follow the example.
+ My discord is `Barış - Irenchin#2002` if more help is needed.
+ 
+## On Client:
 1. Put your sounds in `config\soundboard\assets\soundboard\sounds`. (ik long file path but mc loads resources this way)
 2. Create a `sounds.json` inside `config\soundboard\assets\soundboard`.
    - For every sound, put a line of: `"soundname": {"category": "master", "sounds":[{"name": "filenamewithoutextension", "stream": true}]}`
@@ -14,7 +19,7 @@
    - When you change a keybind it will automatically save to `config\soundboard\keys.json`.
 5. Enjoy.
 
-**On Server:**
+## On Server:
 1. If `config\soundboard\keys.json` doesn't exist, create it.
 2. Open the file.
    - The text inside should start with an `[` and end with an `]`.
