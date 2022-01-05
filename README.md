@@ -15,7 +15,7 @@
      - Replace the `filenamewithoutextension` with the sound file's name.
      - The `"stream": true` can be either true or false. `true` if this sound should be streamed from its file. It is recommended that this is set to "true" for sounds that have a duration longer than a few seconds to avoid lag. Setting this to false allows many more instances of the sound to be ran at the same time while setting it to true only allows 4 instances (of that type) to be ran at the same time. (From [Minecraft Wiki](https://minecraft.fandom.com/wiki/Sounds.json))
      - Sounds should be seperated with a `,` in between. Look at the example.
-   - See [Minecraft Wiki](https://minecraft.fandom.com/wiki/Sounds.json) for more info on how to use the `sounds.json`.
+   - See [Minecraft Wiki](https://minecraft.fandom.com/wiki/Sounds.json) for more info on how to use the `sounds.json` (Since 1.7.10 is "outdated" it may not help too much).
 3. Launch the game.
 4. Press K to open keybinds gui and set your keys. (Gui key can be changed from options.)
    - When you change a keybind it will automatically save to `config\soundboard\keys.json`.
