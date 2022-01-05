@@ -1,5 +1,7 @@
 # sound-board-mod
  
+ [Download SoundBoard-1.0.0-TEST-1.7.10](https://github.com/Irenchin/sound-board-mod/releases/tag/v1.0.0-beta)
+ 
  Sound names on client and server **HAVE TO BE THE SAME**.
  Take a look at the example if something below doesn't make sense.
  If something wrong is written below, then follow the example.
