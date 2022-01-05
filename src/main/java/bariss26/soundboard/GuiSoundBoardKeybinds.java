@@ -29,11 +29,15 @@ public class GuiSoundBoardKeybinds extends GuiScreen {
 			Set<ResourceLocation> k = sr.getKeys();
 			for(ResourceLocation s : k) {
 				if(s.getResourceDomain().equals("soundboard")&&!s.getResourcePath().endsWith(".png")) {
-					System.out.println(s.getResourcePath());
 					boolean alreadyin = false;
 					for(SoundToPlay stp : Main.sounds) {
 						if(stp.name.equals(s.getResourcePath())) {
 							alreadyin = true;
+						}
+						try {
+							String ss = Keyboard.getKeyName(stp.key);
+						} catch(Exception e) {
+							stp.key = Keyboard.KEY_NONE;
 						}
 					}
 					if(!alreadyin) {
@@ -58,10 +62,19 @@ public class GuiSoundBoardKeybinds extends GuiScreen {
 		
 		buttonList.clear();
 		int i = 0;
-		int lastid = 1;
+		int lastid = 0;
+		buttonList.add(new GuiButton(-1, width/2-202, height/2-114, 190, 20, "Prev"));
+		buttonList.add(new GuiButton(-2, width/2+12, height/2-114, 190, 20, "Next"));
+		drawString(fontRendererObj, page+"", width/2-fontRendererObj.getStringWidth(page+"")/2, height/2-114+fontRendererObj.FONT_HEIGHT/2+2, 0xffffff);
+//		System.out.println();
 		for(SoundToPlay stp : Main.sounds) {
-			if(page*10<=i&&i<(page+1)*10) {
-				GuiButtonSoundBoardKeybind b = new GuiButtonSoundBoardKeybind(stp, lastid++, 0, lastid*20, 200, 20, stp.name+" : "+Keyboard.getKeyName(stp.key));
+			if(page*20<=i&&i<(page+1)*20) {
+				++lastid;
+//				System.out.println((lastid));
+				int x = lastid<=10?width/2-202:width/2+2;
+				int y = lastid<=10?lastid*20:(lastid-10)*20;
+				y+=height/2-107;
+				GuiButtonSoundBoardKeybind b = new GuiButtonSoundBoardKeybind(stp, lastid, x, y, 200, 20, stp.name+" : "+Keyboard.getKeyName(stp.key));
 				if(stp.equals(chosenSound)) {
 					b.packedFGColour = 69420;
 				} else {
@@ -88,7 +101,11 @@ public class GuiSoundBoardKeybinds extends GuiScreen {
 		super.actionPerformed(b);
 		if(b instanceof GuiButtonSoundBoardKeybind) {
 			chosenSound = ((GuiButtonSoundBoardKeybind)b).stp;
-			Main.saveKeys();
+		} else if(b.id==-1) {
+			page--;
+			if(page<0) page = 0;
+		} else if(b.id==-2) {
+			page++;
 		}
 	}
 
@@ -98,6 +115,7 @@ public class GuiSoundBoardKeybinds extends GuiScreen {
 		if(chosenSound!=null) {
 			chosenSound.key = keyCode;
 			chosenSound = null;
+			Main.saveKeys();
 		}
 	}
 

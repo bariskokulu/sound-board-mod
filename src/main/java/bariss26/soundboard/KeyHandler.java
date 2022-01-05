@@ -31,7 +31,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class KeyHandler {
 	
-	static KeyBinding keyKeybinds = new KeyBinding("asddsa", Keyboard.KEY_K, "dsaasd");
+	static KeyBinding keyKeybinds = new KeyBinding("Keybinds", Keyboard.KEY_K, "SoundBoard");
 	
 	public static void registerKeys() {
 		ClientRegistry.registerKeyBinding(keyKeybinds);
@@ -46,87 +46,6 @@ public class KeyHandler {
 		}
 		if(keyKeybinds.isPressed()) {
 			Minecraft.getMinecraft().displayGuiScreen(new GuiSoundBoardKeybinds());
-		}
-		
-
-		if(Keyboard.isKeyDown(Keyboard.KEY_NUMPAD1)) {
-
-
-//	        this.sndManager.reloadSoundSystem();
-//	        this.sndRegistry.clearMap();
-	        IResourceManager p_110549_1_ = Minecraft.getMinecraft().getResourceManager();
-	        Iterator iterator = p_110549_1_.getResourceDomains().iterator();
-
-	        while (iterator.hasNext())
-	        {
-	            String s = (String)iterator.next();
-	            
-
-	            System.out.println(s);
-	            try
-	            {
-	                List list = p_110549_1_.getAllResources(new ResourceLocation(s, "sounds.json"));
-	                Iterator iterator1 = list.iterator();
-
-	                while (iterator1.hasNext())
-	                {
-	                    IResource iresource = (IResource)iterator1.next();
-	                    Gson field_147699_c = (new GsonBuilder()).registerTypeAdapter(SoundList.class, new SoundListSerializer()).create();
-	                    try
-	                    {
-	                    	ParameterizedType field_147696_d = new ParameterizedType()
-	                        {
-	                            private static final String __OBFID = "CL_00001148";
-	                            public Type[] getActualTypeArguments()
-	                            {
-	                                return new Type[] {String.class, SoundList.class};
-	                            }
-	                            public Type getRawType()
-	                            {
-	                                return Map.class;
-	                            }
-	                            public Type getOwnerType()
-	                            {
-	                                return null;
-	                            }
-	                        };
-	                    	
-	                        Map map = (Map)field_147699_c.fromJson(new InputStreamReader(iresource.getInputStream()), field_147696_d);
-	                        Iterator iterator2 = map.entrySet().iterator();
-
-	                        while (iterator2.hasNext())
-	                        {
-	                            Entry entry = (Entry)iterator2.next();
-//	                            System.out.println(new ResourceLocation(s, (String)entry.getKey())+""+(SoundList)entry.getValue());
-//	                            this.loadSoundResource(new ResourceLocation(s, (String)entry.getKey()), (SoundList)entry.getValue());
-	                        }
-	                    }
-	                    catch (RuntimeException runtimeexception)
-	                    {
-	                    	System.out.println("sdasddadda");
-//	                        logger.warn("Invalid sounds.json", runtimeexception);
-	                    }
-	                }
-	            }
-	            catch (IOException e)
-	            {
-	            	e.printStackTrace();
-	            }
-	        }
-		}
-		if(Keyboard.isKeyDown(Keyboard.KEY_NUMPAD0)) {
-			try {
-				SoundHandler sh = Minecraft.getMinecraft().getSoundHandler();
-				Field field = sh.getClass().getDeclaredField("sndRegistry");
-				field.setAccessible(true);
-				SoundRegistry sr = (SoundRegistry) field.get(sh);
-				Set s = sr.getKeys();
-				for(Object o : s) {
-					System.out.println(o);
-				}
-			} catch(Exception e) {
-				e.printStackTrace();
-			}
 		}
 	}
 	

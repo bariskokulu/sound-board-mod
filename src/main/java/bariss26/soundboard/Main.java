@@ -20,7 +20,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.IResourcePack;
 
-@Mod(name="SoundBoard",version="1.0.0",modid="soundboard")
+@Mod(name="SoundBoard",version="1.0.0 TEST",modid="soundboard")
 public class Main {
 
 	public static ArrayList<SoundToPlay> sounds = new ArrayList<SoundToPlay>();
@@ -34,26 +34,13 @@ public class Main {
 	public void preInit(FMLPreInitializationEvent event) {
 		config = event.getModConfigurationDirectory();
 		NetworkHandler.launch();
-		proxy.launch();
+		proxy.preinit();
 	}
 
 
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
-		KeyHandler.registerKeys();
-
-		try {
-			File fsb = new File(config.toPath()+"/soundboard");
-			if(!fsb.exists()) {
-				fsb.mkdir();
-			} else {
-				List<IResourcePack> defaultResourcePacks = ObfuscationReflectionHelper.getPrivateValue(Minecraft.class, Minecraft.getMinecraft(), "defaultResourcePacks" , "Field_110449_ao", "field_110449_ao");
-				defaultResourcePacks.add(new SoundsFolder(fsb));
-				loadKeysCreateIfDoesntExistIWonderIfThereIsALengthLimitToMethodNames();
-			}
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
+		proxy.init();
 	}
 
 	@EventHandler
