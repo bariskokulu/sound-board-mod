@@ -1,3 +1,5 @@
+Diğer hesabımdan fork.
+
 # sound-board-mod
  
  [Download SoundBoard-1.0.0-TEST-1.7.10](https://github.com/Irenchin/sound-board-mod/releases/tag/v1.0.0-beta)
